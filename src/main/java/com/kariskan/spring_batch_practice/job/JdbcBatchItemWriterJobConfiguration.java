@@ -51,7 +51,7 @@ public class JdbcBatchItemWriterJobConfiguration {
                 .dataSource(dataSource)
                 .rowMapper(new BeanPropertyRowMapper<>(Pay.class))
                 .sql("SELECT id, amount, tx_name, tx_date_time FROM pay")
-                .name("jdbcBatchItemWriter")
+                .name("jdbcBatchItemReader")
                 .build();
     }
 
