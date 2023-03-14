@@ -1,4 +1,4 @@
-package com.kariskan.spring_batch_practice.job;
+package com.kariskan.spring_batch_practice.reader;
 
 import com.kariskan.spring_batch_practice.domain.Pay;
 import java.util.HashMap;

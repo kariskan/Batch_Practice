@@ -1,4 +1,4 @@
-package com.kariskan.spring_batch_practice.job;
+package com.kariskan.spring_batch_practice.writer;
 
 import com.kariskan.spring_batch_practice.domain.Pay;
 import javax.sql.DataSource;
